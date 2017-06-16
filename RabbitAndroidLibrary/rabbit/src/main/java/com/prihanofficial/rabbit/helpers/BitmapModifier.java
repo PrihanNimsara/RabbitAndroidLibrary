@@ -1,4 +1,4 @@
-package com.prihanofficial.rabbit.library;
+package com.prihanofficial.rabbit.helpers;
 
 
 import android.content.Context;
@@ -19,6 +19,8 @@ import android.renderscript.ScriptIntrinsicBlur;
 public class BitmapModifier {
 
     public static Bitmap modifyBitmap(Context context, Bitmap image, float BITMAP_SCALE, float  BLUR_RADIUS, float contrast, float brightness) {
+
+
         //blur part
         int width = Math.round(image.getWidth() * BITMAP_SCALE);
         int height = Math.round(image.getHeight() * BITMAP_SCALE);
@@ -53,7 +55,12 @@ public class BitmapModifier {
         canvas.drawBitmap( outputBitmap, 0, 0, paint);
 
         return ret;
-    }
+
+
+
+   }
+
+
 
 
 }

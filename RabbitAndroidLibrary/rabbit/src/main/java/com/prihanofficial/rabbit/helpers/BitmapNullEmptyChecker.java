@@ -1,4 +1,4 @@
-package com.prihanofficial.rabbit.library;
+package com.prihanofficial.rabbit.helpers;
 
 
 import android.graphics.Bitmap;

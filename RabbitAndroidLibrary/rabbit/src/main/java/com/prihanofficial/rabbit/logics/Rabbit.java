@@ -1,20 +1,11 @@
-package com.prihanofficial.rabbit.helpers;
+package com.prihanofficial.rabbit.logics;
 
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.ColorMatrix;
-import android.graphics.ColorMatrixColorFilter;
-import android.graphics.Paint;
-import android.renderscript.Allocation;
-import android.renderscript.Element;
-import android.renderscript.RenderScript;
-import android.renderscript.ScriptIntrinsicBlur;
-
-import com.prihanofficial.rabbit.library.BitmapModifier;
-import com.prihanofficial.rabbit.library.BitmapNullEmptyChecker;
-import com.prihanofficial.rabbit.library.FloatNullEmptyChecker;
+import com.prihanofficial.rabbit.helpers.BitmapModifier;
+import com.prihanofficial.rabbit.helpers.BitmapNullEmptyChecker;
+import com.prihanofficial.rabbit.helpers.FloatNullEmptyChecker;
 
 /**
  * Created by Prihan Nimsara on 6/14/2017.
@@ -51,6 +42,7 @@ public class Rabbit {
         rabbitScale = scale;
         return rabbit;
     }
+
     public static Rabbit setRaius(float radius){
         rabbitRadius = radius;
         return  rabbit;
