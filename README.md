@@ -8,6 +8,15 @@ This Rabbit Android library will be helpful when you want to blur the  image you
 
 ![alt tag](https://user-images.githubusercontent.com/29063580/27351860-5ab3ea7e-561c-11e7-84e3-1df469b1ca17.jpg)
 
+## Limitations
+
+- Currently min SDK is set to 17
+
+## Changelog
+
+- 1.0.0
+    - Initial release
+
 ## Author
 
 Prihan Nimsara, [prihanofficial.com](http://prihanofficial.com)
