@@ -34,6 +34,34 @@ repositories{
   <type>pom</type>
 </dependency>
 ```
+After setup installing lib to your project you just need only to call it using just few lines of code.
+
+## Usage
+
+#### To use Kokis Android Libarary
+
+Add this code segment inside  your Application class or Activity class
+
+```java
+        imageView = (ImageView)findViewById(R.id.iv_imageView);
+        System.out.println(SystemClock.currentThreadTimeMillis());
+        Bitmap bitmap1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.images);
+        System.out.println(SystemClock.currentThreadTimeMillis());
+
+        Rabbit.setContext(this)
+                .setBitMap(bitmap1)
+                .setScale(1.1f)
+                .setRaius(24.0f)
+                .setConstarst(0.0f)
+                .setBrightnes(1.0f)
+                .build();
+
+        Rabbit.getModifiedRabbitBitmap();
+        imageView.setImageBitmap(Rabbit.getModifiedRabbitBitmap());
+```
+## Limitations
+
+- Currently min SDK is set to 17
 
 ## Limitations
 
