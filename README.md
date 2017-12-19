@@ -8,6 +8,33 @@ This Rabbit Android library will be helpful when you want to blur the  image you
 
 ![alt tag](https://user-images.githubusercontent.com/29063580/27351860-5ab3ea7e-561c-11e7-84e3-1df469b1ca17.jpg)
 
+
+## Gradle
+
+```java
+repositories{
+   jcenter()
+ }
+```
+
+```java
+ dependencies {
+   ...
+  compile 'com.prihanofficial:rabbit:1.0.0'
+ }
+```
+
+#### if you using maven use following Maven
+
+```java
+<dependency>
+  <groupId>com.prihanofficial</groupId>
+  <artifactId>rabbit</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+
 ## Limitations
 
 - Currently min SDK is set to 17
